@@ -38,11 +38,11 @@
   height: 60px;
   width: 100%
   line-height: 60px; /* Vertically center the text there */
-  background-color: #007bff;
+  background-color: #a8d7ed;
 }
    </style>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-primary" style="width: 100%">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-primary" style="width: 100, background-color: #a8d7ed %">
          <div class="container">
             <ul class="nav navbar-nav pull-sm-left">
                <li class="nav-item">
@@ -52,13 +52,13 @@
             </ul>
             <ul class="nav navbar-nav navbar-logo mx-auto">
                <li class="nav-item">
-                  <a class="nav-link" href="#">Vehicles</a>
+                  <a class="nav-link" href="http://fleet-tracker.apps.pcf.paltraining.perficient.com/vehicles">Vehicles</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Readings</a>
+                  <a class="nav-link" href="http://fleet-tracker.apps.pcf.paltraining.perficient.com/readings">Readings</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Alerts</a>
+                  <a class="nav-link" href="http://fleet-tracker.apps.pcf.paltraining.perficient.com/alerts">Alerts</a>
                </li>
             </ul>
          </div>
@@ -133,7 +133,7 @@
 	  <footer class="footer">
            <div class="row footer-bottom">
             <div class="col-sm-6">
-              <p    style="margin-bottom: 0px;">© 2019. Fleet Tracker. All rights reserved.</p>
+              <p  style="margin-bottom: 0px;"> &copy; 2019. Fleet Tracker. All rights reserved.</p>
             </div>
             <div class="col-sm-6">
               <p class="right" style="margin-bottom: 0px";><a>Contact Us : info@fleettracker.com </a>  |  <a>  Location : Detroit , MI</a>.</p>

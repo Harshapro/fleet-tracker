@@ -64,5 +64,13 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
+bootRun.environment([
+        "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE":"*",
+        "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS":"always",
+])
+springBoot { 
+    buildInfo()
+} 
+
 
 
